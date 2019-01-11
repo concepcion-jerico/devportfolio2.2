@@ -87,8 +87,18 @@
 										<?php echo $item['price']; ?>
 									</p>
 								</div>
+
+							<div class="card-footer">
+								<input type="number" class="form-control" value="1">
+								<button type="submit" class="btn btn-block btn-outline-primary add-to-cart" data-id="<?php echo $item['id']; ?>"> Add to cart </button>
 							</div>
-						</div> <!-- end of card -->
+
+
+
+
+
+							</div> <!-- end of card -->
+						</div> <!-- end of col -->
 					<?php } echo "</div>" ?> <!-- end of items row -->
 
 			</div>

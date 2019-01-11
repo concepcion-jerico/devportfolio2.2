@@ -2,17 +2,28 @@
 
 require_once './connect.php';
 
+$firstname = $_POST['firstname'];
+$lastname = $_POST['lastname'];
+$email = $_POST['email'];
+$address = $_POST['address'];
 $username = $_POST['username'];
-$password = sha1($_POST['password']); //sha1 used to not reveal the true password
+$password = password_hash($_POST['password'],PASSWORD_BCRYPT);
 
-$sql = "INSERT INTO users (username, password) VALUES ('$username', '$password')";
+//retrieve only the data under the username column that has the same value as username variable
+$sql = "SELECT * FROM users WHERE username = '$username' ";
+$result = mysqli_query($conn, $sql);
 
-if (mysqli_query($conn, $sql)) {
-	echo 'success';
+if(mysqli_num_rows($result) > 0) {
+	die("user_exists");
 } else {
-	echo mysqli_error($conn);
+	// proceed adding data to DB
+	$sql_insert = "INSERT INTO users (firstname, lastname, email, address, username, password) VALUES ('$firstname', '$lastname', '$email', '$address', '$username', '$password')";
+	$result = mysqli_query($conn, $sql_insert);
+
 }
 
+
+mysqli_close($conn);
 
 
 

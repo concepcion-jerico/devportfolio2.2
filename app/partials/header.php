@@ -3,6 +3,10 @@
 
 	if(isset($_GET["section"])) {
 
+		if($_GET["section"] == "home") {
+			$section = "home";
+		}
+ 
 		if($_GET["section"] == "catalog") {
 			$section = "catalog";
 		}
@@ -45,10 +49,20 @@
 	      </li>
 	       
 	      <li class="nav-item">
-	        <a class="nav-link <?php if($section == "artists") {echo "active";} ?>" href="<?php get_url() ?>app/views/artists.php?section=artists"> Cart</a>
+	        <a class="nav-link <?php if($section == "cart") {echo "active";} ?>" href="<?php get_url() ?>app/views/cart.php?section=cart"> Cart <span class="badge bg-dark text-light" id="cart-count">
+	        	<?php 
+	        		if(isset($_SESSION['cart'])) {
+	        			echo array_sum($_SESSION['cart']);
+	        		} else {
+	        			echo 0;
+	        		}
+
+	        	 ?>
+
+	        </span></a>
 	      </li>      
       
-	      <?php if(isset($_SESSION['logged_in_user'])): ?>
+	      <?php if(isset($_SESSION['user'])): ?>
 
 	      <li class="nav-item">
 	        <a class="nav-link <?php if($section == "logout") {echo "active";} ?>" href="<?php get_url() ?>app/controllers/logout.php"> Logout </a>
@@ -57,7 +71,7 @@
 	      <?php else: ?>
 	      	
 	      <li class="nav-item">
-	        <a class="nav-link <?php if($section == "login") {echo "active";} ?>" href="<?php get_url() ?>app/views/index.php?section=login"> Login </a>
+	        <a class="nav-link <?php if($section == "login") {echo "active";} ?>" href="<?php get_url() ?>app/views/login.php?section=login"> Login </a>
 	      </li>	
 	            	
 	      <li class="nav-item">
