@@ -155,13 +155,22 @@ $(document).ready( () => {
 			"method" : "post",
 			"data" : {
 				'item_id' : item_id,
-				'item_quantity' : item_quantity
+				'item_quantity' : item_quantity,
+				'update_from_cart_page': 0
 			},
 			"success" : (data) => {
 				$("#cart-count").html(data);
 			}
 		});
-	})
+	});
+
+	function getTotal() {
+		let total = 0;
+		$(".item_subtotal").each(function(e) {
+			total += parseFloat($(this).html());
+		});
+		$("#total_price").html(total.toFixed(2));
+	}
 
 
 
