@@ -64,17 +64,17 @@
 									//retrieve trasaction code
 									//retrieve purchase date
 									//retrive payment mode
+									$sql = "SELECT o.transaction_code, o.purchase_date, s.name AS status, p.name AS payment_mode FROM orders o JOIN statuses s ON (o.status_id=s.id) JOIN payment_modes p ON (o.payment_mode_id=p.id) WHERE user_id = ". $user['id'];
 
-
-                                        // $transactions = mysqli_query($conn, $sql);
-                                        // foreach($transactions as $transaction) { ?>
+									$transactions = mysqli_query($conn, $sql);
+									foreach($transactions as $transaction) { ?>
                                           	<tr>
-                                          		<td>transaction code</td>
-                                          		<td>purchase date</td>
-                                          		<td>status</td>
-                                          		<td>payment mode</td>
+                                          		<td><?php echo $transaction['transaction_code'] ?></td>
+                                          		<td><?php echo $transaction['purchase_date'] ?></td>
+                                          		<td><?php echo $transaction['status'] ?></td>
+                                          		<td><?php echo $transaction['payment_mode'] ?></td>
                                           	</tr>
-                                        <?//php  }  
+                                        <?php  }  
 									?>
 								</tbody>
 							</table>
