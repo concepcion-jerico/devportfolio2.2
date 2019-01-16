@@ -228,6 +228,12 @@ $(document).ready( () => {
 	});
 
 
+	//submit profile form updates
+	$('#update_info').click( () => {
+		$('#update_user_details').submit();
+	})
+
+
 
 
 
