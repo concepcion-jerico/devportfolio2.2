@@ -25,6 +25,12 @@
 		if($_GET["section"] == "logout") {
 			$section = "logout";
 		}
+		if($_GET["section"] == "profile") {
+			$section = "profile";
+		}
+		if($_GET["section"] == "items") {
+			$section = "items";
+		}
 	} 
 	
  	
@@ -39,6 +45,7 @@
 
 	  <div class="collapse navbar-collapse" id="sandbox-navbar">
 	    <ul class="navbar-nav ml-auto">
+	    	<?php if(!isset($_SESSION['user']) || (isset($_SESSION['user']) && ($_SESSION['user']['roles_id'] == 2))) { ?>
 
 	      <li class="nav-item">
 	        <a class="nav-link <?php if($section == "home") {echo "active";} ?>" href="<?php get_url() ?>app/views/home.php?section=home"> Home</a>
@@ -60,10 +67,21 @@
 	        	 ?>
 
 	        </span></a>
-	      </li>      
+	      </li>
+
+	      <?php } elseif((isset($_SESSION['user'])) && ($_SESSION['user']['roles_id'] == 1)) { ?>
+
+	      <li class="nav-item">
+	        <a class="nav-link <?php if($section == "items") {echo "active";} ?>" href="<?php get_url() ?>app/views/items.php?section=items"> Items </a>
+	      </li>
+
+		  <?php } ?>
       
 	      <?php if(isset($_SESSION['user'])): ?>
 
+	      <li class="nav-item">
+	        <a class="nav-link <?php if($section == "profile") {echo "active";} ?>" href="<?php get_url() ?>app/views/profile.php?section=profile"> Welcome, <?php echo $_SESSION['user']['firstname'] ?> </a>
+	      </li>	
 	      <li class="nav-item">
 	        <a class="nav-link <?php if($section == "logout") {echo "active";} ?>" href="<?php get_url() ?>app/controllers/logout.php"> Logout </a>
 	      </li>	

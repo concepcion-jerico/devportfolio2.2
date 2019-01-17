@@ -1,6 +1,10 @@
+<?php $pageTitle="Cart" ?>
+
+
 <?php require_once '../partials/template.php'; ?>
 
-<?php function get_page_content() { 
+<?php function get_page_content() {
+	if (!isset($_SESSION['user']) || $_SESSION['user']['roles_id'] == 2 ) {
 	global $conn;
 	?>
 	<div class="container my-4">
@@ -82,4 +86,8 @@
 	
 
 
-<?php } ?>
+<?php } else {
+	header("location: ./error.php");
+} ?>
+
+<?php } ?> <!-- end of page content -->
