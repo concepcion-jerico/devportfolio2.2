@@ -31,6 +31,9 @@
 		if($_GET["section"] == "items") {
 			$section = "items";
 		}
+		if($_GET["section"] == "users") {
+			$section = "users";
+		}
 	} 
 	
  	
@@ -73,6 +76,9 @@
 
 	      <li class="nav-item">
 	        <a class="nav-link <?php if($section == "items") {echo "active";} ?>" href="<?php get_url() ?>app/views/items.php?section=items"> Items </a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link <?php if($section == "users") {echo "active";} ?>" href="<?php get_url() ?>app/views/users.php?section=users"> Users </a>
 	      </li>
 
 		  <?php } ?>
