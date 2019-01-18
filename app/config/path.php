@@ -1,6 +1,6 @@
 <?php
 
-	$url_path = "/jconstore.herokuapp.com/";
+	$url_path = "";
 
 	define("ROOT_URL", $url_path);
 
