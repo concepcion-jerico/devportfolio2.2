@@ -102,7 +102,7 @@
 	      <?php else: ?>
 	      	
 	      <li class="nav-item">
-	        <a class="nav-link <?php if($section == "login") {echo "active";} ?>" href="<?php get_url() ?>app/views/login.php?section=login"> Login </a>
+	        <a class="nav-link <?php if($section == "login") {echo "active";} ?>" href="../views/login.php?section=login"> Login </a>
 	      </li>	
 	            	
 	      <li class="nav-item">
