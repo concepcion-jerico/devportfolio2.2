@@ -45,7 +45,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
   <div class="container-fluid">
-  	<a class="navbar-brand" href="<?php get_url() ?>app/views/home.php?section=home"> JconStore</a>
+  	<a class="navbar-brand" href="../views/home.php?section=home"> JconStore</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sandbox-navbar" aria-controls="sandbox-navbar" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button> 
@@ -55,15 +55,15 @@
 	    	<?php if(!isset($_SESSION['user']) || (isset($_SESSION['user']) && ($_SESSION['user']['roles_id'] == 2))) { ?>
 
 	      <li class="nav-item">
-	        <a class="nav-link <?php if($section == "home") {echo "active";} ?>" href="<?php get_url() ?>app/views/home.php?section=home"> Home</a>
+	        <a class="nav-link <?php if($section == "home") {echo "active";} ?>" href="../views/home.php?section=home"> Home</a>
 	      </li>
 	       
 	      <li class="nav-item">
-	        <a class="nav-link <?php if($section == "catalog") {echo "active";} ?>" href="<?php get_url() ?>app/views/catalog.php?section=catalog"> Catalog</a>
+	        <a class="nav-link <?php if($section == "catalog") {echo "active";} ?>" href="../views/catalog.php?section=catalog"> Catalog</a>
 	      </li>
 	       
 	      <li class="nav-item">
-	        <a class="nav-link <?php if($section == "cart") {echo "active";} ?>" href="<?php get_url() ?>app/views/cart.php?section=cart"> Cart <span class="badge bg-dark text-light" id="cart-count">
+	        <a class="nav-link <?php if($section == "cart") {echo "active";} ?>" href="../views/cart.php?section=cart"> Cart <span class="badge bg-dark text-light" id="cart-count">
 	        	<?php 
 	        		if(isset($_SESSION['cart'])) {
 	        			echo array_sum($_SESSION['cart']);
@@ -79,13 +79,13 @@
 	      <?php } elseif((isset($_SESSION['user'])) && ($_SESSION['user']['roles_id'] == 1)) { ?>
 
 	      <li class="nav-item">
-	        <a class="nav-link <?php if($section == "items") {echo "active";} ?>" href="<?php get_url() ?>app/views/items.php?section=items"> Items </a>
+	        <a class="nav-link <?php if($section == "items") {echo "active";} ?>" href="../views/items.php?section=items"> Items </a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link <?php if($section == "users") {echo "active";} ?>" href="<?php get_url() ?>app/views/users.php?section=users"> Users </a>
+	        <a class="nav-link <?php if($section == "users") {echo "active";} ?>" href="../views/users.php?section=users"> Users </a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link <?php if($section == "orders") {echo "active";} ?>" href="<?php get_url() ?>app/views/orders.php?section=orders"> Orders </a>
+	        <a class="nav-link <?php if($section == "orders") {echo "active";} ?>" href="../views/orders.php?section=orders"> Orders </a>
 	      </li>
 
 		  <?php } ?>
@@ -93,10 +93,10 @@
 	      <?php if(isset($_SESSION['user'])): ?>
 
 	      <li class="nav-item">
-	        <a class="nav-link <?php if($section == "profile") {echo "active";} ?>" href="<?php get_url() ?>app/views/profile.php?section=profile"> Welcome, <?php echo $_SESSION['user']['firstname'] ?> </a>
+	        <a class="nav-link <?php if($section == "profile") {echo "active";} ?>" href="../views/profile.php?section=profile"> Welcome, <?php echo $_SESSION['user']['firstname'] ?> </a>
 	      </li>	
 	      <li class="nav-item">
-	        <a class="nav-link <?php if($section == "logout") {echo "active";} ?>" href="<?php get_url() ?>app/controllers/logout.php"> Logout </a>
+	        <a class="nav-link <?php if($section == "logout") {echo "active";} ?>" href="../controllers/logout.php"> Logout </a>
 	      </li>	
  
 	      <?php else: ?>
@@ -106,7 +106,7 @@
 	      </li>	
 	            	
 	      <li class="nav-item">
-	        <a class="nav-link <?php if($section == "register") {echo "active";} ?>" href="<?php get_url() ?>app/views/register.php?section=register"> Register </a>
+	        <a class="nav-link <?php if($section == "register") {echo "active";} ?>" href="../views/register.php?section=register"> Register </a>
 	      </li>
 
 		  <?php endif; ?>
