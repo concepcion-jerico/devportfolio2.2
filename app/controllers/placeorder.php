@@ -168,8 +168,10 @@ try {
     $redirectUrls = new RedirectUrls();
     $redirectUrls
     //make sure to input correct path
-        ->setReturnUrl('http://192.168.10.19/jconstore/app/controllers/pay.php?success=true')
-        ->setCancelUrl('http://192.168.10.19/jconstore/app/controllers/pay.php?success=false');
+        ->setReturnUrl('http://jconstore.herokuapp.com/app/controllers/pay.php?success=true')
+        ->setCancelUrl('http://jconstore.herokuapp.com/app/controllers/pay.php?success=false');
+        // ->setReturnUrl('http://192.168.10.19/jconstore/app/controllers/pay.php?success=true')
+        // ->setCancelUrl('http://192.168.10.19/jconstore/app/controllers/pay.php?success=false');
 
     $payment = new Payment();
     $payment->setIntent('sale')
