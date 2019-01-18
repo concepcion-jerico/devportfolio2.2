@@ -55,7 +55,7 @@ function generate_new_transaction_number() {
 	$_SESSION['new_txn_number'] = $transaction_number;
 
 	//create a new order
-	$sql = "INSERT INTO orders(user_id,transaction_code,purchase_date,status_id,payment_mode_id) VALUES ('$user_id','$transaction_number', '$purchase_date', '$status_id', '$payment_mode_id'); ";
+	$sql = "INSERT INTO orders(user_id,transaction_code,purchase_date,total,status_id,payment_mode_id) VALUES ('$user_id','$transaction_number', '$purchase_date', 0, '$status_id', '$payment_mode_id'); ";
 
 	$result = mysqli_query($conn, $sql);
 
