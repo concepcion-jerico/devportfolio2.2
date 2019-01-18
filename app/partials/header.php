@@ -34,12 +34,16 @@
 		if($_GET["section"] == "users") {
 			$section = "users";
 		}
+		if($_GET["section"] == "orders") {
+			$section = "orders";
+		}
+
 	} 
 	
  	
 ?>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
   <div class="container-fluid">
   	<a class="navbar-brand" href="<?php get_url() ?>app/views/home.php?section=home"> JconStore</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#sandbox-navbar" aria-controls="sandbox-navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,6 +83,9 @@
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link <?php if($section == "users") {echo "active";} ?>" href="<?php get_url() ?>app/views/users.php?section=users"> Users </a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link <?php if($section == "orders") {echo "active";} ?>" href="<?php get_url() ?>app/views/orders.php?section=orders"> Orders </a>
 	      </li>
 
 		  <?php } ?>

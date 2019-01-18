@@ -10,8 +10,8 @@ $(document).ready( () => {
 		let address = $('#address').val();
 
 		//username should be greater than or equal to 10 chars
-		if(username.length < 10) {
-			$('#username').next().html("Username should be at least 10 characters");
+		if(username.length < 8) {
+			$('#username').next().html("Username should be at least 8 characters");
 			$('#username').next().css('color', 'red');
 			errors++;
 		} else {

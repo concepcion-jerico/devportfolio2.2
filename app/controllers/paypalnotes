@@ -1,0 +1,19 @@
+
+Client ID:
+
+AQEDizrCPKdBrQkwQLvQ3rt08PeRMU6RmHBoNopoSzqh_DUdAlDVYRhqXwqSuogQA_d3WCfyp7fkqxJp
+
+
+Secret
+
+EH0c-QuDWGXr_9uNOTbTaYUnRjmcowaRWBmnB_MGRDYTApyS_W17FNGIMgm_n_7D7gJ6JXFHpCOLahr6
+
+
+
+
+
+// paypal sdk
+https://github.com/paypal/PayPal-PHP-SDK/wiki/Installation
+
+// composer installation of paypal sdk (paste to terminal root directory)
+composer require paypal/rest-api-sdk-php:*
