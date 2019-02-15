@@ -1,5 +1,392 @@
 
 
-footer * {
-	color: white;
+* {
+	margin:	0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	overflow: hidden;	
+
 }
+
+main {
+	/*height: 80vh;*/
+}
+
+
+#myname1 a {
+	font-family: 'Expletus Sans', cursive;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFACE;
+}
+  
+#myname2 {
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+  
+
+ 
+.icons {
+	width: 40%;
+	height: 100%;
+}
+
+#myimage {
+	width: 150px;
+	height: 150px;
+	border-style: solid;
+	border-radius: 50%;
+	border-color: black;
+	border-width: 5px;
+
+}
+
+#myimage2 {
+	display: none;
+	position: absolute;
+	top: 41%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 200px;
+	height: 200px;
+	border-style: solid;
+	border-radius: 50%;
+	border-color: black;
+	border-width: 5px;
+	
+}
+
+ul li a {
+	/*position: relative;*/
+	color: black;
+	text-align: center;
+	color: #f6f6f6;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	font-size: 1rem;
+
+}
+
+ul li a:hover {
+	text-decoration: none;
+	font-size: 1.5rem;
+	/*color: #006EC9;*/
+	transition: 0.5s;
+		color: #FFFACE;
+}
+ 
+ul li a:visited, ul li a:select {
+	text-decoration: none;
+	font-size: 2rem;
+	/*color: #006EC9;*/
+	/*transition: 0.5s;*/
+		color: #FFFACE;
+}
+ 
+ul {
+	list-style: none;
+	text-align: center;
+}
+
+#section1 {
+	/*background: #040811;*/
+	color: #f6f6f6;
+	height: 90vh;
+
+background-image: linear-gradient(to right, #040811 0%, black 100%);
+
+
+}
+
+footer {
+	background: #FCFAE3; /*yellow*/
+	/*height: 10vh;*/
+	font-family: 'Oswald', sans-serif;
+
+}
+
+#about, #projects, #contact {
+	/*height: 90vh;*/
+	background: #080705;
+	color: #f6f6f6;
+	display: none;
+	padding-left: 2%;
+
+}
+
+#btnAbout {
+	border: none;
+}
+
+.resume {
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+}
+ 
+.resume a:hover {
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	color: #51514D;
+}
+ 
+
+
+
+.imghome {
+	width: 10%;
+	height: 18vh;
+	float: left;
+	filter: brightness(30%);
+}
+
+.imghome:hover {
+	filter: brightness(100%);
+}
+
+
+.hometitle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Expletus Sans', cursive;
+	color: #f6f6f6;
+	text-shadow: 0px 1px 14px rgba(0,0,0,1.0);
+	
+
+}
+
+.zindex {
+	z-index: 5;
+}
+
+#home {
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	/*transform: translate(-50%, -50%);*/
+	font-family: 'Expletus Sans', cursive;
+	color: #f6f6f6;
+	text-shadow: 0px 1px 14px rgba(0,0,0,1.0);
+	/*z-index: 4;	*/
+
+}
+
+#footer1 {
+	color: #080705;
+	font-weight: bold;
+}
+
+#footer2 {
+	color: #51514D;
+	font-weight: bold;
+}
+
+#project1 div h4 {
+	color: #080705;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+#project1 div p {
+	color: #51514D;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: .8rem;
+	font-weight: bold;
+}
+
+.capstone-img {
+	filter: brightness(100%);
+}
+
+.capstone-img:hover {
+	filter: brightness(70%);
+}
+
+.cardprojectbtn {
+	border: none;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 5px 10px 20px rgba(0,0,0,1.0);
+
+
+}
+
+.cardbody {
+	height: 30vh;
+}
+
+.cardfooter {
+	height: 15vh;
+}
+
+.iconsize {
+	width: 15%;
+	/*height: 90%;*/
+	padding-top: 2%;
+}
+
+
+.font-beige {
+	color: #FCFAE3;
+}
+
+
+/*CONTACT*/
+
+.input-container {
+	display: flex;
+	width: 100%;
+	margin-bottom: 2%;
+		font-family: 'Roboto Condensed', sans-serif;
+}
+
+.icon {
+	padding: 3%;
+	background: #FCFAE3;
+	color: #080705;
+	min-width: 8%;
+	text-align: center;
+	/*margin: auto;*/
+
+
+}
+
+.input-field {
+	padding: 2%;
+	outline: none;
+	border-style: inset;
+}
+ 
+.input-field:focus {
+	background-color: #FCFAE3;
+}
+ 
+#btnSend {
+	background: transparent;
+	font-family: 'Roboto Condensed', sans-serif;
+	border: 2px solid;
+}
+ 
+#btnSend:hover {
+	filter: brightness(100%);
+	border: 2px solid;
+	border-color: #FCFAE3;
+	background: #FCFAE3;
+	color: #000;
+	font-weight: bold;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media queries should be always last in css
+
+/*mobile styles*/
+@media only screen and (max-width: 400px) {
+
+* {
+		overflow: visible;
+}
+
+footer {
+	padding-bottom: 5%;
+}
+
+#home {
+	display: none;
+
+}
+
+
+.icons {
+	width: 40%;
+	/*height: 40%;*/
+}
+
+#about, #projects, #contact {
+	display: block;
+	padding-left: 2%;
+	height: 100%;
+
+}
+
+.input-field, .input-container {
+	margin: 0;
+	margin-bottom: 2%;
+}
+
+#btnSend {
+	margin-bottom: 5%;
+	margin-top: 3%;
+	text-align: center;
+	margin-left: 30%;
+}
+
+#links {
+	display: none;
+}
+
+
+.hometitle2 {
+
+	font-family: 'Expletus Sans', cursive;
+	color: #f6f6f6;
+	text-shadow: 0px 1px 14px rgba(0,0,0,1.0);
+	padding-top: 25%;
+	
+
+}
+
+.margin1 {
+	margin-bottom: 25%;
+}
+
+#section1 {
+	height: 100vh;
+}
+
+}
+
+/*tablet styles*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	
+
+
+}
+
+/*desktop styles*/
+
+@media only screen and (min-width: 961px) {
+
+
+
+
+
+
+}
+	
+
+
+
+
