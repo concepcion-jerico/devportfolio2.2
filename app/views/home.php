@@ -60,7 +60,7 @@
 				
 			
 				<div class="text-center mb-4 mt-3">
-					<img id="myimage" src="../assets/images/me2.jpg" alt="myimage" class="img-fluid">
+					<img id="myimage" src="../assets/images/dp.jpeg" alt="myimage" class="img-fluid">
 					<!-- <img id="myimage2" src="assets/images/me.png" alt="myimage" class="img-fluid"> -->
 				</div>
 
@@ -74,7 +74,7 @@
 
 
 				<div class="text-center">
-					<h2 class="hometitle2 col-md-8 text-center">FULL STACK <br> WEB DEVELOPER</h2>
+					<h2 class="hometitle2 col-md-8 text-center d-none">FULL STACK <br> WEB DEVELOPER</h2>
 				</div>
 			</div> <!-- end 4 cols -->
 
