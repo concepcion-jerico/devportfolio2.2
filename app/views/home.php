@@ -142,7 +142,7 @@
 			<div id="about" class="col-md-8">
 				<h1 class="mb-2 pt-3 font-beige">About</h1>
 
-				<h3 class="my-3 resume"> <i class="far fa-file-alt px-3"></i><a href="../assets/docs/cv.docx" class="font-beige" download>  View My Resume </a></h3>
+				<h3 class="my-3 resume"> <i class="far fa-file-alt px-3"></i><a href="../assets/docs/cv.pdf" class="font-beige" download>  View My Resume </a></h3>
 
 				<h4 class="mb-5">  <i class="material-icons">language</i> Skills </h4>
 
