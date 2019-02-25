@@ -74,7 +74,7 @@
 
 
 				<div class="text-center">
-					<h2 class="hometitle2 col-md-8 text-center d-none">FULL STACK <br> WEB DEVELOPER</h2>
+					<h2 class="hometitle2 col-md-8 text-center">FULL STACK <br> WEB DEVELOPER</h2>
 				</div>
 			</div> <!-- end 4 cols -->
 
