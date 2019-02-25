@@ -236,7 +236,7 @@
 					<div class="col-md-4 p-3">
 						<button class="cardprojectbtn btn btn-block p-0">
 							<a href="https://shrouded-ridge-46685.herokuapp.com/" target="_blank">
-								<img class="capstone-img img-fluid card-img-top" src="../assets/images/jconstore.jpg" alt="image">
+								<img class="capstone-img img-fluid card-img-top" src="../assets/images/yourinn.png" alt="image">
 							</a>
 						</button>
 						<div id="project1" class="card">
