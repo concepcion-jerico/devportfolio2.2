@@ -208,27 +208,7 @@
 					</div> <!-- end of col -->
 	 
 		
-					<div class="col-md-4 p-3">
-						<button class="cardprojectbtn btn btn-block p-0">
-							<a href="https://jpc-jconstore.herokuapp.com/" target="_blank">
-								<img class="capstone-img img-fluid card-img-top" src="../assets/images/jconstore.jpg" alt="image">
-							</a>
-						</button>
-						<div id="project1" class="card">
-							<div class="cardbody card-body">
-								<h4 class="card-title text-center"> Jconstore </h4>
-								<p> A food retailing e-commerce website </p>
-							</div>
-							<div class="cardfooter card-footer text-center">
-								<img class="iconsize img-fluid" src="../assets/images/html-5.png" alt="html5">
-								<img class="iconsize" src="../assets/images/css.png" alt="css3">
-								<img class="iconsize" src="../assets/images/bootstrap.jpg" alt="bootstrap4">
-								<img class="iconsize" src="../assets/images/js.png" alt="javascript">	
-								<img class="iconsize" src="../assets/images/jquery.png" alt="javascript">	
-								<img class="iconsize" src="../assets/images/php.png" alt="javascript">	
-							</div>
-						</div> <!-- end of card -->
-					</div> <!-- end of col -->
+
 	 
 
 					<div class="col-md-4 p-3">
@@ -248,7 +228,31 @@
 								<img class="iconsize" src="../assets/images/bootstrap.jpg" alt="bootstrap4">
 								<img class="iconsize" src="../assets/images/js.png" alt="javascript">	
 								<img class="iconsize" src="../assets/images/jquery.png" alt="javascript">	
-								<img class="iconsize" src="../assets/images/laravel.png" alt="javascript">
+								<img class="iconsize" src="../assets/images/laravel.png" alt="laravel">
+							</div>
+						</div> <!-- end of card -->
+					</div> <!-- end of col -->
+
+					<div class="col-md-4 p-3">
+						<button class="cardprojectbtn btn btn-block p-0">
+							<a href="https://shrouded-ridge-46685.herokuapp.com/" target="_blank">
+								<img class="capstone-img img-fluid card-img-top" src="../assets/images/jconstore.jpg" alt="image">
+							</a>
+						</button>
+						<div id="project1" class="card">
+							<div class="cardbody card-body">
+								<h4 class="card-title text-center"> YOUR INN </h4>
+								<p> A hotel/inn booking system using the concept of slots. Admin and User's accounts has its own CRUD functionality. </p>
+							</div>
+							<div class="cardfooter card-footer text-center">
+								<img class="iconsize img-fluid" src="../assets/images/html-5.png" alt="html5">
+								<img class="iconsize" src="../assets/images/css.png" alt="css3">
+								<img class="iconsize" src="../assets/images/bootstrap.jpg" alt="bootstrap4">
+								<img class="iconsize" src="../assets/images/js.png" alt="javascript">	
+								<img class="iconsize" src="../assets/images/jquery.png" alt="jquery">	
+								<img class="iconsize" src="../assets/images/mongo.png" alt="mongoDB">	
+								<img class="iconsize" src="../assets/images/laravel.png" alt="laravel">
+								<img class="iconsize" src="../assets/images/nodeJS.png" alt="nodeJS">	
 							</div>
 						</div> <!-- end of card -->
 					</div> <!-- end of col -->
