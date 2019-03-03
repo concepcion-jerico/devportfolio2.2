@@ -327,7 +327,7 @@ footer {
 }
 
 #about, #projects, #contact {
-	display: block;
+	display: block !important;
 	padding-left: 2%;
 	height: 100%;
 
