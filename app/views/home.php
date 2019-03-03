@@ -147,44 +147,44 @@
 				<h4 class="mb-5">  <i class="material-icons">language</i> Skills </h4>
 
 				<div class="row">
-					<div class="col-md-3 text-center mb-3">
+					<div class="col-md-3 text-center mb-3 col-sm-6">
 						<img class="icons img-fluid" src="../assets/images/html-5.png" alt="html5">
 					</div>
 	 
-					<div class="col-md-3 text-center mb-3">
+					<div class="col-md-3 text-center mb-3 col-sm-6">
 						<img class="icons" src="../assets/images/css.png" alt="css3">			
 					</div>
 						 
-					<div class="col-md-3 text-center mb-3">
+					<div class="col-md-3 text-center mb-3 col-sm-6">
 						<img class="icons" src="../assets/images/bootstrap.jpg" alt="bootstrap4">			
 					</div>
 						 
-					<div class="col-md-3 text-center mb-3">
+					<div class="col-md-3 text-center mb-3 col-sm-6">
 						<img class="icons" src="../assets/images/js.png" alt="javascript">			
 					</div>
 						 
-					<div class="col-md-4 text-right mb-3 pr-5">
+					<div class="col-md-4 text-right mb-3 pr-5 col-sm-6">
 						<img class="icons" src="../assets/images/jquery.png" alt="jquery">			
 					</div>						 
-					<div class="col-md-4 text-center mb-3">
+					<div class="col-md-4 text-center mb-3 col-sm-6">
 						<img class="icons" src="../assets/images/php.png" alt="php">			
 					</div>						 
-					<div class="col-md-4 text-left mb-3 pl-5">
+					<div class="col-md-4 text-left mb-3 pl-5 col-sm-6">
 						<img class="icons" src="../assets/images/laravel.png" alt="laravel">			
 					</div>						 
-					<div class="col-md-3 text-center offset-md-3 mb-3">
+					<div class="col-md-3 text-center offset-md-3 mb-3 col-sm-6">
 						<img class="icons" src="../assets/images/gitlab.png" alt="gitlab">			
 					</div>						 
-					<div class="col-md-3 text-center mb-3">
+					<div class="col-md-3 text-center mb-3 col-sm-6">
 						<img class="icons" src="../assets/images/github.png" alt="github">			
 					</div>					
-					<div class="col-md-3 text-center mb-3">
+					<div class="col-md-3 text-center mb-3 col-sm-6">
 						<img class="icons" src="../assets/images/mongo.png" alt="mongoDB">			
 					</div>
- 					<div class="col-md-4 offset-md-4 text-center">
+ 					<div class="col-md-4 offset-md-4 text-center col-sm-6">
 						<img class="icons" src="../assets/images/nodeJS.png" alt="nodeJS">			
 					</div> 					
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-6">
 						<img class="icons" src="../assets/images/mysql.png" alt="mysql">			
 					</div>
  
