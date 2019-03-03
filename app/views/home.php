@@ -163,13 +163,13 @@
 						<img class="icons" src="../assets/images/js.png" alt="javascript">			
 					</div>
 						 
-					<div class="col-md-4 tright mb-3 pr-5">
+					<div class="col-md-4 text-right mb-3 pr-5">
 						<img class="icons" src="../assets/images/jquery.png" alt="jquery">			
 					</div>						 
 					<div class="col-md-4 text-center mb-3">
 						<img class="icons" src="../assets/images/php.png" alt="php">			
 					</div>						 
-					<div class="col-md-4 tleft mb-3 pl-5">
+					<div class="col-md-4 text-left mb-3 pl-5">
 						<img class="icons" src="../assets/images/laravel.png" alt="laravel">			
 					</div>						 
 					<div class="col-md-3 text-center offset-md-3 mb-3">
