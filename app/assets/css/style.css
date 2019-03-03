@@ -373,67 +373,7 @@ footer {
 
 /*tablet styles*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-* {
-		overflow: visible;
-}
 
-footer {
-	padding-bottom: 5%;
-}
-
-#home {
-	display: none;
-
-}
-
-
-.icons {
-	width: 40%;
-	/*height: 40%;*/
-}
-
-#about, #projects, #contact {
-	display: block;
-	padding-left: 2%;
-	height: 100%;
-
-}
-
-.input-field, .input-container {
-	margin: 0;
-	margin-bottom: 2%;
-}
-
-#btnSend {
-	margin-bottom: 5%;
-	margin-top: 3%;
-	text-align: center;
-	margin-left: 30%;
-}
-
-#links {
-	display: none;
-}
-
-
-.hometitle2 {
-
-	font-family: 'Expletus Sans', cursive;
-	color: #f6f6f6;
-	text-shadow: 0px 1px 14px rgba(0,0,0,1.0);
-	padding-top: 25%;
-	display: block;
-	
-
-}
-
-.margin1 {
-	margin-bottom: 25%;
-}
-
-#section1 {
-	height: 100vh;
-}
 
 
 
