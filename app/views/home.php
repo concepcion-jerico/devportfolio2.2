@@ -172,13 +172,13 @@
 					<div class="col-md-4 text-left mb-3 pl-5">
 						<img class="icons" src="../assets/images/laravel.png" alt="laravel">			
 					</div>						 
-					<div class="col-md-3 text-center offset-md-3">
+					<div class="col-md-3 text-center offset-md-3 mb-3">
 						<img class="icons" src="../assets/images/gitlab.png" alt="gitlab">			
 					</div>						 
-					<div class="col-md-3 text-center">
+					<div class="col-md-3 text-center mb-3">
 						<img class="icons" src="../assets/images/github.png" alt="github">			
 					</div>					
-					<div class="col-md-3 text-center">
+					<div class="col-md-3 text-center mb-3">
 						<img class="icons" src="../assets/images/mongo.png" alt="mongoDB">			
 					</div>
  					<div class="col-md-4 offset-md-4 text-center">
