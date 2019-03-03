@@ -177,8 +177,14 @@
 					</div>						 
 					<div class="col-md-3 text-center">
 						<img class="icons" src="../assets/images/github.png" alt="github">			
+					</div>					
+					<div class="col-md-3 text-center">
+						<img class="icons" src="../assets/images/mongo.png" alt="mongoDB">			
 					</div>
-
+ 					<div class="col-md-3 text-center">
+						<img class="icons" src="../assets/images/nodeJS.png" alt="nodeJS">			
+					</div>
+ 
 	 			</div>
  
 			</div> <!-- end 8cols -->
@@ -299,7 +305,7 @@
 
 		<div class="row row-media">
 			<div class="col-md-12 text-center pt-3">
-				<span id="footer1">Jerico Concepcion</span> <span id="footer2"> | Tuitt Coding Bootcamp &copy; 2018 </span>
+				<span id="footer1">Jerico Concepcion</span> <span id="footer2"> | Tuitt Coding Bootcamp &copy; 2019 </span>
 			</div>
 		</div> <!-- end row -->
 
