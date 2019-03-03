@@ -305,7 +305,7 @@ footer {
 /*media queries should be always last in css
 
 /*mobile styles*/
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 400px) {
 
 * {
 		overflow: visible;
@@ -372,8 +372,51 @@ footer {
 }
 
 /*tablet styles*/
-@media only screen and (min-width: 415px) and (max-width: 960px) {
-	.hometitle2 {
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+* {
+		overflow: visible;
+}
+
+footer {
+	padding-bottom: 5%;
+}
+
+#home {
+	display: none;
+
+}
+
+
+.icons {
+	width: 40%;
+	/*height: 40%;*/
+}
+
+#about, #projects, #contact {
+	display: block;
+	padding-left: 2%;
+	height: 100%;
+
+}
+
+.input-field, .input-container {
+	margin: 0;
+	margin-bottom: 2%;
+}
+
+#btnSend {
+	margin-bottom: 5%;
+	margin-top: 3%;
+	text-align: center;
+	margin-left: 30%;
+}
+
+#links {
+	display: none;
+}
+
+
+.hometitle2 {
 
 	font-family: 'Expletus Sans', cursive;
 	color: #f6f6f6;
@@ -384,6 +427,13 @@ footer {
 
 }
 
+.margin1 {
+	margin-bottom: 25%;
+}
+
+#section1 {
+	height: 100vh;
+}
 
 
 
