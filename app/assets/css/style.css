@@ -325,15 +325,11 @@ footer {
 .icons {
 	width: 40%;
 	/*height: 40%;*/
-	text-align: none;
+	text-align: none !important;
 	text-align: center !important;
 	margin: auto;
 }
 
-#about .row div {
-	text-align: center !important;
-	margin: auto;
-}
 
 #about, #projects, #contact {
 	display: block !important;
