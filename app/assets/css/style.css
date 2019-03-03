@@ -305,7 +305,7 @@ footer {
 /*media queries should be always last in css
 
 /*mobile styles*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 414px) {
 
 * {
 		overflow: visible;
@@ -372,7 +372,7 @@ footer {
 }
 
 /*tablet styles*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (min-width: 415px) and (max-width: 960px) {
 	.hometitle2 {
 
 	font-family: 'Expletus Sans', cursive;

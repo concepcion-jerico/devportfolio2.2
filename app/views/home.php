@@ -181,10 +181,10 @@
 					<div class="col-md-3 text-center">
 						<img class="icons" src="../assets/images/mongo.png" alt="mongoDB">			
 					</div>
- 					<div class="col-md-4 offset-md-3 text-center">
+ 					<div class="col-md-4 offset-md-4 text-center">
 						<img class="icons" src="../assets/images/nodeJS.png" alt="nodeJS">			
 					</div> 					
-					<div class="col-md-3 text-center">
+					<div class="col-md-4">
 						<img class="icons" src="../assets/images/mysql.png" alt="mysql">			
 					</div>
  
