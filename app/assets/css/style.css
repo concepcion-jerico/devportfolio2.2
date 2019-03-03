@@ -292,6 +292,14 @@ footer {
 	display: none;
 }
 
+.tright {
+	text-align: right;
+}
+
+.tleft {
+	text-align: left;
+}
+
 
 
 
